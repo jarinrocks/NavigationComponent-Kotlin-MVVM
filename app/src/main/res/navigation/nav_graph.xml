@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/services_dest">
+
+    <fragment
+        android:id="@+id/services_dest"
+        android:name="com.sample.gilebeautysalon.services.ServicesFragment"
+        android:label="services_fragment"
+        tools:layout="@layout/services_fragment" >
+        <action
+            android:id="@+id/action_servicesFragment_to_employeeFragment"
+            app:destination="@id/employee_dest" />
+    </fragment>
+    <fragment
+        android:id="@+id/employee_dest"
+        android:name="com.sample.gilebeautysalon.employee.EmployeeFragment"
+        android:label="employee_fragment"
+        tools:layout="@layout/employee_fragment" />
+    <fragment
+        android:id="@+id/cart_dest"
+        android:name="com.sample.gilebeautysalon.cart.CartFragment"
+        android:label="cart_fragment"
+        tools:layout="@layout/cart_fragment" />
+</navigation>

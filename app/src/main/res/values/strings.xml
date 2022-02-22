@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GILE BEAUTY SALON</string>
+    <string name="cart">Cart</string>
+    <string name="services">Services</string>
+    <string name="select_emp_des">Please select the employee(s) for this service. You can select multiple employees.</string>
+    <string name="add_to_cart">Add services to cart</string>
+</resources>
